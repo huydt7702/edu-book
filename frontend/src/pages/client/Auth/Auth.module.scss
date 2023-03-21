@@ -1,3 +1,12 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://wallpaperaccess.com/full/6500892.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
 .container {
     margin: auto;
     background-color: #fff;
@@ -6,6 +15,7 @@
     position: fixed;
     top: 50%;
     left: 50%;
+    z-index: 999;
     transform: translate(-50%, -50%);
     overflow: hidden;
     width: 768px;
